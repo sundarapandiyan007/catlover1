@@ -13,3 +13,21 @@ public class AgeChecker {
             System.out.println("You are not yet an adult.");
         }
     }
+
+
+package Catlover2;
+
+public class Ifproject {
+    public static void main(String[] args) {
+        
+
+        System.out.print("Enter your age: ");
+        int age = 62;
+
+        if (age >= 18 && age <= 60) {
+            System.out.println("You are an adult.");
+        } else {
+            System.out.println("You are not an adult within the specified age range.");
+        }
+    }
+}
